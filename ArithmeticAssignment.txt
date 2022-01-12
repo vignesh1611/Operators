@@ -1,0 +1,17 @@
+package operators;
+
+public class ArthimeticAssignment {
+	
+	int a=+10;
+	int b=-20;
+   	
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+		ArthimeticAssignment assign = new ArthimeticAssignment();
+		System.out.println(assign.a);
+		System.out.println(assign.b);
+	}
+
+}
