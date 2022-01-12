@@ -1,0 +1,28 @@
+package operators;
+
+public class Arthimetic {
+	//member variable
+	int a = 20;
+	int b = 10;
+	int c = a+b; // Arithmetic operation ("+" is a Arithmetic operator)
+	int d = a-b; // '-' is a arithmetic operator 
+	int e = a*b; // ' * ' is Arithmetic operator
+	int f = a/b; // ' / ' is Arithmetic operator
+	int g = a%b; // ' % ' is Arithmetic operator
+	
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+	Arthimetic add = new Arthimetic();
+	Arthimetic sub = new Arthimetic();
+	Arthimetic mul = new Arthimetic();
+	Arthimetic div = new Arthimetic();
+	Arthimetic mod = new Arthimetic();
+	
+    System.out.println(add.c);
+    System.out.println(sub.d);
+    System.out.println(mul.e);
+    System.out.println(div.f);
+    System.out.println(mod.g);
+	}
+
+}
