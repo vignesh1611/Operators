@@ -1,0 +1,15 @@
+package operators;
+
+public class Greaternum {
+	 public static Boolean greaterNum(int num)
+	   {
+		   return (num>100 && num >200 );               // return true when the both condition are true
+	   }
+	   
+		public static void main(String[] args) {
+			// TODO Auto-generated method stub
+	          
+			System.out.println(greaterNum(205));
+			
+		}
+}
