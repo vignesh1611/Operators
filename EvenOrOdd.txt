@@ -1,0 +1,23 @@
+package operators;
+
+public class EvenOrOdd 
+{
+   public static Boolean even(int num)
+   {
+	   return (num&1)== 0;               // return true when the num is even else false
+   }
+   public static Boolean odd(int num)
+   {
+	   return (num&1)== 1;               // return true when the num is odd else false
+   }
+	
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+          
+		System.out.println(even(2));
+		System.out.println(odd(6));
+		
+	}
+
+}
