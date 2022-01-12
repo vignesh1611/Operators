@@ -1,0 +1,26 @@
+package operators;
+
+public class RelationalOperator {
+  // member variables
+	int a = 100;
+	int b = 200;
+	Boolean c = a>b;          // relational operator of if a is greater than b
+	Boolean d = a<b;          // relational operator of if a is lesser than b
+	Boolean e = a==b;         // relational operator of if a is equal to b
+	Boolean f = a!=b;         // relational operator of if a is not equal to b
+	Boolean g = a>= b;        // relational operator of if a greater or equal to b
+	Boolean h = a<= b;        // relational operator of if a lesser or equal to b
+	
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+     RelationalOperator relational = new RelationalOperator(); // Creating an Object for class
+     System.out.println(relational.c);
+     System.out.println(relational.d);
+     System.out.println(relational.e);
+     System.out.println(relational.f);
+     System.out.println(relational.g);
+     System.out.println(relational.h);
+	}
+
+}
