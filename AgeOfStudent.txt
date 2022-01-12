@@ -1,0 +1,19 @@
+package operators;
+
+public class AgeOfStudent {
+	//member variable
+	//Assigning a value to the variable age
+	int age = 28;
+	Boolean studentage = age>18; //check if age is greater than 18
+	
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		//Creating a object ageofstudent for a class AgeOfStudent
+		AgeOfStudent ageofstudent = new AgeOfStudent();
+		
+		System.out.println(ageofstudent.studentage);
+		
+		System.out.println("Student age is " +" "+ageofstudent.age+", "+ "So,the age is greater than 18 is"+" "+ageofstudent.studentage);
+	}
+
+}
