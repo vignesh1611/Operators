@@ -1,0 +1,34 @@
+package operators;
+
+public class LogicalOperators {
+	// member variable
+	int a = 100;
+	int b = 200;
+	int x = 200;
+	int y = 10;
+	int z = 8;
+	int i = y&z;
+	int j = y|z;
+	
+	Boolean c = (a>b) && (a!=b);   //('&&' is a AND logical operator)(It satisfy when all condtion are true)
+	Boolean d = (a<b)&&(b==x);     
+	Boolean e = (a<b)||(a==x);     //('||' is a OR logical operator)(It satisfy when any one condition is true)
+	Boolean f = (a!=b);            //('!=' is a NOTEQUALS logical operator )
+    Boolean g = b==x;  			   //('==' is EQUALS logical operator)
+    
+	public static void main(String[] args) 
+	{
+		// TODO Auto-generated method stub
+		//Creating a object logical for class LogicalOperator
+		LogicalOperators logical = new LogicalOperators();
+		
+		System.out.println(logical.c);
+		System.out.println(logical.d);
+		System.out.println(logical.e);
+		System.out.println(logical.f);
+		System.out.println(logical.g);
+		System.out.println(logical.i);
+		System.out.println(logical.j);
+		
+	}
+}
